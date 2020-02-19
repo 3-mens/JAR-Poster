@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+    background-color: transparent;
+}
+body {
+    background-color: gray;
+    background-image: url("Images/Car_deliver-01.jpg"),url("Images/Car_deliver-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    background-color: transparent;
+}
+
+header {
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 84px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: transparent;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    /*Specifies a prioritized list of font family names or generic family names. A user agent iterates through the list of family names until it matches an available font that contains a glyph for the character to be rendered.*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer button {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

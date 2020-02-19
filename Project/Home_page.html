@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">      <!-- 防中文乱码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jar</title>
+    <link href=Poster.css rel=stylesheet type="text/css">     <!-- 连接到CS -->
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="Images/JAR-Logo.png" alt="Logo for JAR-Poster">
+            <h1>Welcome to Jar</h1>
+        </header>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Order Online</a>
+            <a href="#">Gift Voucher</a>
+            <a href="#">Catering</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <main>
+            <h1>Let's start!</h1>
+            <p>We are operating this platform for the convenience of your life!</p>
+            <a href="mailto:virblade172000@gmail.com">Make a Claim?</a>
+        </main>
+        
+        <footer>
+            <button class="buttonR">Register</button>
+            <button class="buttonL">Login</button>
+        </footer>
+    </div>
+
+    <script src=JS\Login.js type=text/javascript> </script>        <!-- 连接到JS -->
+    <script src=JS\Register.js type=text/javascript> </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+</body>
+</html>
